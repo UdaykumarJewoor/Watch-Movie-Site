@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Watch new movies</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="MovieSite.css">
+        
+        <script>
+            function openTrailer(trailerId) {
+    // Find the corresponding anchor tag based on the provided trailerId
+    const anchorTag = document.getElementById(trailerId);
+
+    // Use JavaScript to programmatically click the anchor tag, which will open the trailer link
+    if (anchorTag) {
+        anchorTag.click();
+    }
+}
+
+// Get all the thumbnail images with the "thumbnail" class
+
+
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="header">
+        <div class="left-section">
+            <img src="photos/icons8-hamburger-button-50.png" class="hamburger-icon">
+            <img class="netflix-icon" src="photos/629764e87ec76b82fb21fce6.png"> 
+        </div>
+
+        <div class="middle-section">  
+            <input type="text" class="search-bar" placeholder="Find Movies">
+            <img src="photos/icons8-search-50.png" class="search-icon">
+            <img src="photos/icons8-mic-24.png" class="mic-icon">
+        </div>
+        
+        <div class="right-section">
+            <button>Free Movies & TV</button>
+            <button>Live TV</button>
+            <button>Features</button>
+            <button>Download</button>
+            <button>Sign In</button>
+            <button class="sign-up-button">Sign Up</button>
+        </div>
+    </div>
+    <div>
+        <p class="heading-title">To Match all Movies trailer Just Click on the Movie Name</p>
+    </div>
+        <div class="video-grid">
+            <div class="container1">
+                <img src="photos/captain-marvel-2-6h-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer1')">
+                <a class="trailer" id="trailer1" href="https://www.youtube.com/watch?v=iuk77TjvfmE">MARVEL 2</a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">8.4</strong>/10 (1.2M)</p></span>
+                <p class="movie-stats">20M views &#183 3 months ago</p>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+            <div class="container1">
+                <img src="photos/hidden-strike-movie-7m-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer2')">
+                <a class="trailer" id="trailer2" href="https://www.youtube.com/watch?v=l_jEicE6KyQ">HIDDEN STRIKE</a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">5.9</strong>/10 (449)</p></span>
+                <p class="movie-stats">175k views &#183 1 month ago</p>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/john-wick-in-action-mode-0q-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer3')">
+                <a class="trailer" id="trailer3" href="https://www.youtube.com/watch?v=M7XM597XO94">JOHN WICK CHAPTER -3</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">7.4</strong>/10 (399k)</p></span>
+                <p class="movie-stats">42M views &#183 4 years ago</p>
+                <p class="watch-now-text">Watch Now</p>
+
+            </div>
+
+            <div class="container1">
+                <img src="photos/marvel-black-panther-2-15-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer4')">
+                <a class="trailer" id="trailer4" href="https://www.youtube.com/watch?v=RlOB3UALvrQ">BLACK PANTHER</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">6.7</strong>/10 (278k)</p></span>
+                <p class="movie-stats">45M views &#183 11 months ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/deadpool-3-5k-lw.jpg" class="thumbnail" onclick="openTrailer('trailer4')">
+                <a class="trailer" id="trailer4" href="https://www.youtube.com/watch?v=ze_i9vv8sdM">DEADPOOL - 3</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">7.6</strong>/10 (611k)</p></span>
+                <p class="movie-stats">1M views &#183 11 days ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/mortal-kombat-2021-movie-logo-1f-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer5')">
+                <a class="trailer" id="trailer5" href="https://www.youtube.com/watch?v=NYH2sLid0Zc">MORTAL KOMBAT</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">6.1</strong>/10 (278k)</span>
+                <p class="movie-stats">17M views &#183 3 years ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/the-flash-movie-logo-qc.jpg" class="thumbnail" onclick="openTrailer('trailer6')">
+                <a class="trailer" id="trailer6" href="https://www.youtube.com/watch?v=r51cYVZWKdY">THE FLASH</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">7.1</strong>/10 (98k)</span>
+                <p class="movie-stats">31M views &#183 2 months ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/thor-love-and-thunder-2021-logo-wj-1920x1080.jpg" class="thumbnail" onclick="openTrailer('trailer7')">
+                <a class="trailer" id="trailer7" href="https://www.youtube.com/watch?v=Go8nTmfrQd8">THOR (Love and Thunder)</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">7.0</strong>/10 (874k)</span>
+                <p class="movie-stats">58M views &#183 1 year ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/cillian-murphy-in-oppenheimer-2023-5k-8o.jpg" class="thumbnail" onclick="openTrailer('trailer8')">
+                <a class="trailer" id="trailer8" href="https://www.youtube.com/watch?v=uYPbbksJxIg">OPPERNHEIMER</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <span class="fa fa-star checked"><p class="movie-rating">Rating <strong class="imdb">9.1</strong>/10 (118k)</span>
+                <p class="movie-stats">43M views &#183 2 months ago</p>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="text-container-header">
+                BOLLYWOOD NEW RELEASED MOVIES AND TEASERS
+            </div>
+        
+
+            <div class="container1">
+                <img src="photos/Adipurush-5.jpg" class="thumbnail" onclick="openTrailer('trailer9')">
+                <a class="trailer" id="trailer9" href="https://www.youtube.com/watch?v=scNmYjoR-qM&t=1s">ADIPURUSH</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Zara-Hatke-Zara-Bach-Ke-2.jpg" class="thumbnail" onclick="openTrailer('trailer10')">
+                <a class="trailer" id="trailer10" href="https://www.youtube.com/watch?v=ziK8HzNk04A">ZARA HATKE ZARA BACHKE</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/The-Kerala-Story-4.jpg" class="thumbnail" onclick="openTrailer('trailer11')">
+                <a class="trailer" id="trailer11" href="https://www.youtube.com/watch?v=3Jk3vquJDGs&t=3s">THE KERALA STORY</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Salaar-3.jpg" class="thumbnail" onclick="openTrailer('trailer12')">
+                <a class="trailer" id="trailer12" href="https://www.youtube.com/watch?v=bUR_FKt7Iso">SALAAR</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/OMG-2.jpg" class="thumbnail" onclick="openTrailer('trailer13')">
+                <a class="trailer" id="trailer13" href="https://www.youtube.com/watch?v=xZ1FXdIGf9Q">OMG - 2</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Satyaprem-Ki-Katha-7.jpg" class="thumbnail" onclick="openTrailer('trailer14')">
+                <a class="trailer" id="trailer14" href="https://www.youtube.com/watch?v=8EPJiFfWRfw">SATYA PREM KI KATHA</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Hanuman.jpeg" class="thumbnail" onclick="openTrailer('trailer15')">
+                <a class="trailer" id="trailer15" href="https://www.youtube.com/watch?v=H9V3KdUyyIA">HANUMAN</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Bhediya-6.jpg" class="thumbnail" onclick="openTrailer('trailer16')">
+                <a class="trailer" id="trailer16" href="https://www.youtube.com/watch?v=d_BPlvbw_ok">BHEDIYA</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Bawaal-3.jpg" class="thumbnail" onclick="openTrailer('trailer17')">
+                <a class="trailer" id="trailer17" href="https://www.youtube.com/watch?v=NyeG2mLVCS4">BAWAAL</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+            <div class="container1">
+                <img src="photos/Lakadbaggha.jpg" class="thumbnail" onclick="openTrailer('trailer18')">
+                <a class="trailer" id="trailer18" href="https://www.youtube.com/watch?v=Ds2cUILMr-0">LAKADBAGGHA</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div>
+
+              
+            <div class="container1">
+                <img src="photos/Pushpa-2-–-The-Rule.jpg" class="thumbnail" onclick="openTrailer('trailer19')">
+                <a class="trailer" id="trailer19" href="https://www.youtube.com/watch?v=1VhA9aITCGg">PUSHPA - 2</a>
+                <a id="hiddenAnchor" style="display: none;"></a>
+                <p class="watch-now-text">Watch Now</p>
+            </div> 
+        </div>
+        <br><hr>
+        <div><p class="about-page">Visit for more</p></div>
+        <div class="social-media">
+            <div class="first-section">
+                <p>Copyright &copy 2023</p>
+                <p>Privacy & Legal Accessibility</p>
+                <p>Language : English</p>
+            </div>
+            <div class="second-section">
+                <img src="photos/icons8-facebook-24.png">
+                <img src="photos/icons8-instagram-24.png">
+                <img src="photos/icons8-twitter-24.png">
+                <img src="photos/icons8-youtube-24.png">
+            </div>
+        </div>
+        
+    </body>
+</html>
